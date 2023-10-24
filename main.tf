@@ -2,13 +2,6 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-  cloud {
-    organization = "rantaj"
-
-    workspaces {
-      name = "rantaj"
-    }
-  }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
